@@ -18,3 +18,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 row.insertCell(0).textContent = buku.judul;
                 row.insertCell(1).textContent = buku.pengarang;
                 row.insertCell(2).textContent = buku.tahun_terbit;
+            });
+        }
+    };
+    xhr.open("GET", "toko_buku.json", true);
+    xhr.send();
+});
