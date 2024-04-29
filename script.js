@@ -11,4 +11,10 @@ document.addEventListener("DOMContentLoaded", function() {
             document.getElementById("pengarang-toko").textContent = data.pengarang;
             document.getElementById("alamat-toko").textContent = data.alamat;
 
-   
+            // Tampilkan daftar buku dalam tabel
+            var daftarBuku = document.getElementById("daftar-buku");
+            data.koleksi_buku.forEach(function(buku) {
+                var row = daftarBuku.insertRow();
+                row.insertCell(0).textContent = buku.judul;
+                row.insertCell(1).textContent = buku.pengarang;
+                row.insertCell(2).textContent = buku.tahun_terbit;
