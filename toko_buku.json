@@ -1,0 +1,17 @@
+{
+    "toko": "Toko Buku Jaya",
+    "alamat": "Bandung Kidul",
+    "pengarang": "M Arif Sobriyanto",
+    "koleksi_buku": [
+        {
+            "judul": "Aku Siapa?",
+            "pengarang": "aptz",
+            "tahun_terbit": 2098
+        },
+        {
+            "judul": "Siapa Kamu?",
+            "pengarang": "anonimus",
+            "tahun_terbit": 2099
+        }
+    ]
+}
